@@ -1,5 +1,5 @@
 // Data structure that will store the celeb data
-var friends = [
+var celebrities = [
 	{
 		name: 'Scarlett Johansson',
 		photo: 'http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-15.jpg',
@@ -161,3 +161,6 @@ var friends = [
 		]
 	}
 ];
+
+// export the stored celeb data so other files can have access
+module.exports = celebrities;
