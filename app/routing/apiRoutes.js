@@ -11,7 +11,7 @@ module.exports = function (app) {
 		res.json(celebrities);
 	});
 
-	// Add new friend entry
+	// Add new celebrity entry
 	app.post('/api/celebrities', function (req, res) {
 		// Capture the user input object
 		var userInput = req.body;
@@ -20,14 +20,14 @@ module.exports = function (app) {
 		var userResponses = userInput.scores;
 		// console.log('userResponses = ' + userResponses);
 
-		// Compute best friend match
+		// Compute best celebrity match
 		var matchName = '';
 		var matchImage = '';
 		var totalDifference = 10000; // Make the initial value big for comparison
 
 		// Examine all existing celebrities in the list
 		for (var i = 0; i < celebrities.length; i++) {
-			// console.log('friend = ' + JSON.stringify(celebrities[i]));
+			// console.log('celebrity = ' + JSON.stringify(celebrities[i]));
 
 			// Compute differenes for each question
 			var diff = 0;
@@ -36,11 +36,11 @@ module.exports = function (app) {
 			}
 			// console.log('diff = ' + diff);
 
-			// If lowest difference, record the friend match
+			// If lowest difference, record the celebrity match
 			if (diff < totalDifference) {
 				// console.log('Closest match found = ' + diff);
-				// console.log('Friend name = ' + celebrities[i].name);
-				// console.log('Friend image = ' + celebrities[i].photo);
+				// console.log('celebrity name = ' + celebrities[i].name);
+				// console.log('celebrity image = ' + celebrities[i].photo);
 
 				totalDifference = diff;
 				matchName = celebrities[i].name;

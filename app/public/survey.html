@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Besties</title>
+	<title>Celebrity Match</title>
 
 	<!-- Link to the jQuery Library -->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -32,8 +32,8 @@
 	<header>
 		<nav>
 			<div class="nav-wrapper black accent-2">
-				<i class="fa fa-puzzle-piece fa-5x" aria-hidden="true" id=logo-icon href="/"></i>
-				<a href="/" class="brand-logo" id="logo">Celebrity Matcher Pro</a>
+				<i class="fa fa-puzzle-piece fa-5x" aria-hidden="true" id=logo-icon  a href="/"></i>
+				<a href="/" class="brand-logo" id="logo">Celebrity Match Pro</a>
 				<ul class="right hide-on-med-and-down" id="head-nav-links">
 					<li><a href="/api/celebrities" target="_blank">API Celebrity List</a></li>
 					<li><a href="https://github.com/lindsnicolewalker/Celebrity-Match" target="_blank">GitHub Repo</a></li>
@@ -197,7 +197,7 @@
 
 						<!-- Survey Submit Button -->
 						<div>
-							<button class="btn waves-effect waves-light" style="background-color: black;" type="submit" name="action" id="submitButton">Find Your Bestie!
+							<button class="btn waves-effect waves-light" style="background-color: black;" type="submit" name="action" id="submitButton">Find Your Celebrity Match!
 								<i class="material-icons right">send</i>
 							</button>
 						</div>
@@ -212,7 +212,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col l6 s12">
-					<h5 class="white-text">Celebrity Matcher Pro</h5>
+					<h5 class="white-text">Celebrity Match Pro</h5>
 					<p class="grey-text text-lighten-4">Thank you for taking the survey. Your responses will be used for funsies only.
 					</p>
 				</div>
@@ -232,10 +232,11 @@
 			</div>
 		</div>
 	</footer>
+
 <!-- Modal Dialog Displaying Closest Friend Match -->
-<div id="resultModal" class="modal">
+<div id="resultsModal" class="modal">
     <div class="modal-content">
-        <h4>Celebrity Match</h4>
+        <h4>Your Celebrity Match</h4>
         <div class="divider"></div>
         <h5 id="userMatch"></h5>
         <img id="userMatchImage" class="materialboxed" width="650" src="">
@@ -281,10 +282,18 @@
             ]
         };
 
-        // Add user inputs to celebrity list
+        // Add user inputs to celebrity data
         $.post('/api/celebrities', userInput)
             .done(function (data) {
+				// console.log('response = ' + JSON.stringify(data));
 
+					// Set the name and image values of celebrity match
+					$('#userMatch').html(data.matchName);
+					$("#userMatchImage").attr("src", data.matchImage);
+
+					// Pop open the modal dialog
+					$('#resultsModal').modal('open');
+				
             });
     });
 </script>
