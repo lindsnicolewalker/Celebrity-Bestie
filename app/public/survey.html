@@ -281,6 +281,12 @@
             ]
         };
 
+        // Add user inputs to friends list
+        $.post('/api/friends', userInput)
+            .done(function (data) {
+
+            });
+    });
 </script>
 	
 </body>
