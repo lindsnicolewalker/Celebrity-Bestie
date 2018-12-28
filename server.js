@@ -9,3 +9,8 @@ var PORT = process.env.PORT || 8080;
 
 // Expose the public directory to access CSS files
 app.use(express.static(path.join(__dirname, './app/public')));
+
+// Add middleware for parsing incoming request bodies
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.text());
