@@ -35,8 +35,8 @@
 				<i class="fa fa-puzzle-piece fa-5x" aria-hidden="true" id=logo-icon href="/"></i>
 				<a href="/" class="brand-logo" id="logo">Celebrity Matcher Pro</a>
 				<ul class="right hide-on-med-and-down" id="head-nav-links">
-					<li><a href="/api/friends" target="_blank">API Celebrity List</a></li>
-					<li><a href="https://github.com/lindsnicolewalker/Friend-Finder" target="_blank">GitHub Repo</a></li>
+					<li><a href="/api/celebrities" target="_blank">API Celebrity List</a></li>
+					<li><a href="https://github.com/lindsnicolewalker/Celebrity-Match" target="_blank">GitHub Repo</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -219,8 +219,8 @@
 				<div class="col l4 offset-l2 s12">
 					<h5 class="white-text">Links</h5>
 					<ul>
-						<li><a class="grey-text text-lighten-3" href="/api/friends" target="_blank">API Celebrity List</a></li>
-						<li><a class="grey-text text-lighten-3" href="https://github.com/lindsnicolewalker/friend-finder" target="_blank">GitHub Repo</a></li>
+						<li><a class="grey-text text-lighten-3" href="/api/celebrities" target="_blank">API Celebrity List</a></li>
+						<li><a class="grey-text text-lighten-3" href="https://github.com/lindsnicolewalker/Celebrity-Match" target="_blank">GitHub Repo</a></li>
 					</ul>
 				</div>
 			</div>
@@ -281,8 +281,8 @@
             ]
         };
 
-        // Add user inputs to friends list
-        $.post('/api/friends', userInput)
+        // Add user inputs to celebrity list
+        $.post('/api/celebrities', userInput)
             .done(function (data) {
 
             });
