@@ -1,7 +1,8 @@
 
-![Alt Text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnIihgzeF-D_RVmlIDwNcmo7NSO6opJb6R05h4l5Q_D2Gou4lr)
 
-# Celebrity Match 
+# Celebrity Match Pro
+
+![Alt Text](https://media.giphy.com/media/wt0eFnCJXkA4VWDe3c/giphy.gif)
 
 ## Description
 
@@ -14,9 +15,6 @@
 ![Alt Text](https://media.giphy.com/media/2vjOI0AGhSK45iTcbr/giphy.gif)
 
 *Celebrity Match* is deployed to Heroku. Please check it out [here](https://celebrity-match.herokuapp.com/).
-
-![Alt Text](https://media.giphy.com/media/wt0eFnCJXkA4VWDe3c/giphy.gif)
-
 
 ## Installation
 
