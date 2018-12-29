@@ -39,7 +39,6 @@ The application will now be running locally on `PORT`, in this case that is port
 
 ![Alt Text](https://media.giphy.com/media/e7QOmaAA6fzxxOcGc6/giphy.gif)
 
-##Technology
-
+## Technology
 
 *Celebrity Match* uses [Node.js](https://nodejs.org/en/) and [Express](https://expressjs.com/) server on the back end and the [Materialize](http://materializecss.com/) CSS framework on the front end.
