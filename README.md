@@ -79,17 +79,21 @@ Javascript
 ![Alt Text](https://media.giphy.com/media/7vAhGi5HQeDojyqHlu/giphy.gif)	
 
 ## HTML Routes (JavaScript):
-![Alt Text](https://media.giphy.com/media/29pUQheyWfN1vwL66N/giphy.gif)	
-		// Home page
-		app.get('/', function (req, res) {
-			res.sendFile(path.join(__dirname, '../public/home.html'));
-		});
+![Alt Text](https://media.giphy.com/media/29pUQheyWfN1vwL66N/giphy.gif)     	
+	 	`// Export HTML routes
+		module.exports = function (app) {
+			// console.log('___ENTER htmlRoutes.js___');`
 
-		// Survey page
+		`// Home page
+		app.get('/', function (req, res) {
+			res.sendFile(path.join(__dirname, '../public/home.html'));`
+		});`
+
+		`// Survey page
 		app.get('/survey', function (req, res) {
 			res.sendFile(path.join(__dirname, '../public/survey.html'));
-		});
-		};
+		});`
+		`};`
 	
 
 ## Hardcoded API Array of Objects i.e. Possible Celebrity Matches (JavaScript):
