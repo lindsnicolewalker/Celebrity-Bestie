@@ -50,7 +50,7 @@ Javascript
 
 ## Survey (HTML):
 
-
+`<script>`
     $(document).ready(function () {
         $('select').material_select();
 
