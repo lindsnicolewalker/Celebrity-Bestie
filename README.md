@@ -10,16 +10,16 @@
 
 
 ## Demo
-Simply take the survey .
+Simply take the survey .  
 ![Alt Text](https://media.giphy.com/media/2vjOI0AGhSK45iTcbr/giphy.gif)
 
-When complete, click the button and find your match!
+When complete, click the button and find your match!  
 ![Alt Text](https://media.giphy.com/media/wt0eFnCJXkA4VWDe3c/giphy.gif)
 
 
 ## Installation
 
-To install the application follow the instructions below in your terminal:
+To install the application follow the instructions below in your terminal:  
 
 	git clone git@github.com:lindsnicolewalker/celebrity-match.git
 	cd celebrity-match
@@ -49,7 +49,7 @@ Javascript
 ## ---CODE---
 
 ## Survey (HTML):
-![Alt Text](https://media.giphy.com/media/8vXq8kVfG1orAalSOX/giphy.gif)
+
 
     $(document).ready(function () {
         $('select').material_select();
@@ -80,10 +80,7 @@ Javascript
 
 ## HTML Routes (JavaScript):
 ![Alt Text](https://media.giphy.com/media/29pUQheyWfN1vwL66N/giphy.gif)	
-		`// Establish required dependencies
-		var path = require('path');`
-
-		// Export HTML routes
+	 	// Export HTML routes
 		module.exports = function (app) {
 			// console.log('___ENTER htmlRoutes.js___');
 
@@ -140,3 +137,6 @@ Javascript
 		res.json({ status: 'OK', matchName: matchName, matchImage: matchImage });
 	});
 	};
+
+## Author: 
+Lindsey Walker
