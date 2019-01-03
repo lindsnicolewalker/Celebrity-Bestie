@@ -80,10 +80,6 @@ Javascript
 
 ## HTML Routes (JavaScript):
 ![Alt Text](https://media.giphy.com/media/29pUQheyWfN1vwL66N/giphy.gif)	
-	 	// Export HTML routes
-		module.exports = function (app) {
-			// console.log('___ENTER htmlRoutes.js___');
-
 		// Home page
 		app.get('/', function (req, res) {
 			res.sendFile(path.join(__dirname, '../public/home.html'));
