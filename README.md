@@ -50,7 +50,7 @@ Javascript
 
 ## Survey (HTML):
 
-`<script>`
+	<script>
     $(document).ready(function () {
         $('select').material_select();
 
@@ -70,7 +70,7 @@ Javascript
 				
         });
     });
-`</script>`
+	</script>
 
 ## Landing Page (HTML):
 ![Alt Text](https://media.giphy.com/media/5QSrI3K8EERLjdo0Ht/giphy.gif)
