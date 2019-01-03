@@ -51,7 +51,7 @@ Javascript
 
 ## Code
 
-Survey (HTML):
+## Survey (HTML):
 ![Alt Text](https://media.giphy.com/media/1qfa8qFatMO5HLCu6z/giphy.gif)
 
 
@@ -107,10 +107,10 @@ Survey (HTML):
     });
 `</script>`
 
-Style (CSS):
+## Style (CSS):
 ![Alt Text](https://media.giphy.com/media/7vAhGi5HQeDojyqHlu/giphy.gif)	
 
-HTML Routes (JavaScript):
+## HTML Routes (JavaScript):
 ![Alt Text](https://media.giphy.com/media/29pUQheyWfN1vwL66N/giphy.gif)	
 `// Establish required dependencies
 var path = require('path');`
@@ -130,13 +130,13 @@ var path = require('path');`
 	});
 `};`
 
-Landing Page (HTML):
+## Landing Page (HTML):
 ![Alt Text](https://media.giphy.com/media/5QSrI3K8EERLjdo0Ht/giphy.gif)	
 
-Hardcoded API Array of Objects i.e. Possible Celebrity Matches (JavaScript):
+## Hardcoded API Array of Objects i.e. Possible Celebrity Matches (JavaScript):
 ![Alt Text](https://media.giphy.com/media/AhvpCJvPO0aAJf3AE7/giphy.gif)	
 
-API Routes (JavaScript):
+## API Routes (JavaScript):
 ![Alt Text](https://media.giphy.com/media/YWoAga1BzjZXB2KyCT/giphy.gif)
 
 `// Establish required dependencies
