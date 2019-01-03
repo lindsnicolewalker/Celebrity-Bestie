@@ -35,10 +35,34 @@ After the `PORT` environment variable has been set, navigate to your app master 
 	node server.js
 ![Alt Text](https://media.giphy.com/media/2sYEw141AbG9R57DRd/giphy.gif)	
 
-The application will now be running locally on `PORT`, in this case that is port 8080. You can then access it locally from your browser at the URL `localhost:PORT`, in this case type into your browser searchbar: `localhost:8080`.
+The application will now be running locally on `PORT`, in this case that is port 8080. You can then access it locally from your browser at the URL `localhost:PORT`by typing into your browser searchbar: `localhost:8080`.
 
 ![Alt Text](https://media.giphy.com/media/e7QOmaAA6fzxxOcGc6/giphy.gif)
 
 ## Technology
 
 *Celebrity Match* uses [Node.js](https://nodejs.org/en/) and [Express](https://expressjs.com/) server on the back end and the [Materialize](http://materializecss.com/) CSS framework on the front end.
+
+HTML
+CSS
+Javascript
+
+## Code
+
+Survey (HTML):
+![Alt Text](https://media.giphy.com/media/1qfa8qFatMO5HLCu6z/giphy.gif)	
+
+Style (CSS):
+![Alt Text](https://media.giphy.com/media/7vAhGi5HQeDojyqHlu/giphy.gif)	
+
+HTML Routes (JavaScript):
+![Alt Text](https://media.giphy.com/media/29pUQheyWfN1vwL66N/giphy.gif)	
+
+Landing Page (HTML):
+![Alt Text](https://media.giphy.com/media/5QSrI3K8EERLjdo0Ht/giphy.gif)	
+
+Hardcoded API Array of Possible Celebrity Matches (JavaScript):
+![Alt Text](https://media.giphy.com/media/AhvpCJvPO0aAJf3AE7/giphy.gif)	
+
+API Routes (JavaScript):
+![Alt Text](https://media.giphy.com/media/YWoAga1BzjZXB2KyCT/giphy.gif)	
