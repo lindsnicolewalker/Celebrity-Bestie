@@ -79,7 +79,7 @@ Javascript
 ![Alt Text](https://media.giphy.com/media/7vAhGi5HQeDojyqHlu/giphy.gif)	
 
 ## HTML Routes (JavaScript):
-![Alt Text](https://media.giphy.com/media/29pUQheyWfN1vwL66N/giphy.gif)     	
+![Alt Text](https://media.giphy.com/media/29pUQheyWfN1vwL66N/giphy.gif)     	<br>
 	 	`// Export HTML routes
 		module.exports = function (app) {
 			// console.log('___ENTER htmlRoutes.js___');`
